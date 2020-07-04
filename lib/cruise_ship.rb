@@ -7,7 +7,7 @@
 # }
 
 def select_winner(passengers)
-  passengers.each do |key, value|
+  passengers.find do |key, value|
     
   end
 end
