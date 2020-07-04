@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   passengers.find do |key, value|
-    key == 
+    key == suite_a && value.first == "A"
   end
 end
